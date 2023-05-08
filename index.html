@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درفة للمطابخ</title>
+     <!-- add icon link -->
+     <!-- <link rel = "icon" href = 
+     "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
+             type = "image/x-icon"> -->
+
+             <link rel="icon" type="images" href="./images/images.png">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.min.js"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body dir="rtl">
+    
+    <!-- header -->
+
+    <section class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-chair"></i> درفه للمطابخ</a>
+
+        <nav class="navbar">
+            <a href="#home">الصفحة الرئيسية</a>
+            <a href="#about">من نحن</a>
+            <a href="#services">الصور</a>
+            <a href="#product">خدمتنا  </a>
+            <a href="#contact">اتصل بنا</a>
+     
+        </nav>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </section>
+    <!-- header -->
+
+    <!-- shopping cart -->
+
+    <div class="cart-items-container">
+
+        <div id="close" class="fas fa-times"></div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-img-1.jpg" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$18.99/-</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-img-2.jpg" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$18.99/-</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-img-3.jpg" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$18.99/-</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-img-4.jpg" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$18.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn"> checkout</a>
+    </div>
+
+
+    <!-- shopping cart -->
+
+    <!-- account form -->
+
+    <div class="account-form">
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">login</span>
+            <span class="btn register-btn">register</span>
+        </div>
+
+        <form action="" class="login-form active">
+            <h3>Login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+                <a href="#">forgot password</a>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+
+        <form action="" class="register-form">
+            <h3>register now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <input type="password" placeholder="confirm your password" class="box">
+            <input type="submit" value="register" class="btn">
+        </form>
+
+    </div>
+
+    <!-- account form -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+
+                <!-- <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>we just make a perfect furniture for home</h3>
+                        <span>with you since 1965</span>
+                    </div>
+                </div> -->
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>شبكة المطابخ توفر المطابخ  بجودة عالية </h3>
+                        <span>لدينا خبرة أكتر من 15 عام في مجال المطابخ</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>مزيج استثنائي</h3>
+                        <span>من الحرفية والفخامة والمتانة</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide4.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>علامة فارقة في مجال المطابخ</h3>
+                        <span>نفتخر بتقديم مطبخ صديق للبيئة الالومنيوم بالكامل مع ضمان 20سنة</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide5.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>التصميم الجيد هو بحد ذاته لغة وليس أسلوب</h3>
+                        <span>نحرص دائما علي التطور المستمر لتقديم منتجات مبتكرة </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- home -->
+
+    <!-- about us -->
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span>من </span> نحن</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/2.jpg" alt="">
+            </div>
+
+
+             <div class="content">
+                <span>أهلا بيك  في </span>
+                <h3>درفه للمطابخ</h3>
+                <ul>
+                    <p>
+                         
+
+مطابخ صاج كلادينج قطاع خاص وقطاع عام ألماني عالي الجودة ترميم وتركيب وصيانة مطابخ تغير مفصلات ايطالية أصلية تغير سحابات رمان تغير لون المطبخ تغير رخام المطبخ وتكملة المطبخ بنفس اللون فك وتركيب المطبخ وعم تصميم ثري دي
+اختار الشكل المناسب وميز نفسك باقل الاسعار من درفه للمطابخ 
+                    </p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quas distinctio culpa quam voluptatem omnis libero saepe nisi dolores veniam sequi odit, unde dolorem eos reiciendis repellendus pariatur ducimus corporis?</p> -->
+                <a href="#" class="btn">read more</a>
+            </div> 
+
+        </div>
+
+    </section>
+
+
+    <!-- about us -->
+
+    <!-- services -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">معرض <span> الصور</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/111.jpg" alt="">
+                
+            </div>
+
+            <div class="box">
+                <img src="images/222.jpg" alt="">
+        
+            </div>
+
+            <div class="box">
+                <img src="images/333.jpg" alt="" style="width: 33rem;">
+           
+            </div>
+            <div class="box">
+                <img src="images/444.jpg" alt="" style="width: 32.5rem;">
+            
+            </div>
+            <div class="box">
+                <img src="images/555.jpg" alt="">
+                
+            </div>
+            <div class="box">
+                <img src="images/44.jpg" alt="" style="width: 33rem;">
+             
+            </div>
+            <div class="box">
+                <img src="images/777.jpg" alt="" style="width: 33rem;">
+             
+            </div>
+            <div class="box">
+                <img src="images/888.jpg" alt="" style="width: 33rem;">
+             
+            </div>
+            <div class="box">
+                <img src="images/1010.jpg" alt="" style="width: 33rem;">
+             
+            </div>
+            <div class="box">
+                <img src="images/999.jpg" alt="" style="width: 33rem;">
+             
+            </div>
+            <div class="box">
+                <img src="images/1111.jpg" alt="" style="width: 33rem;">
+             
+            </div>
+            <div class="box">
+                <img src="images/2222.jpg" alt="" style="width: 33rem;">
+             
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services -->
+
+    <!-- product -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading" id="heading">معرض <span> الفيديوهات</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                 <a href="#" class="fas fa-heart"></a>
+                <!-- <a href="#" class="fas fa-eye"></a>  -->
+                <video width="" controls class="action" style="width: 33rem; height: 42rem;"> 
+                    <source src="./images/videos.mp4" type="video/mp4">
+                  </video>
+                <h3>نظام الحلول المرنة </h3>
+                <div class="stars ">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                 <a href="#" class="fas fa-heart"></a>
+                <!-- <a href="#" class="fas fa-eye"></a>  -->
+                <video width="" controls class="action" style="width: 33rem; height: 42rem; object-fit: cover;"> 
+                    <source src="./images/Video2 .mp4" type="video/mp4" >
+                  </video>
+                <h3>نظام يتمتع بامكانيات لا حصر لها </h3>
+                <div class="stars ">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                 <a href="#" class="fas fa-heart"></a>
+                <!-- <a href="#" class="fas fa-eye"></a>  -->
+                <video width="" controls class="action" style="width: 33rem; height: 42rem;"> 
+                    <source src="./images/Video 3.mp4" type="video/mp4">
+                  </video>
+                <h3>نظام مثالي بسعر رائع </h3>
+                <div class="stars ">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                 <a href="#" class="fas fa-heart"></a>
+                <!-- <a href="#" class="fas fa-eye"></a>  -->
+                <video width="" controls class="action" style="width: 33rem; height: 42rem; object-fit: cover;"> 
+                    <source src="./images/Video 4.mp4" type="video/mp4">
+                  </video>
+                <h3>تصميم مطبخ الأحلام خطوة بخطوة </h3>
+                <div class="stars ">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+           
+        </div>
+
+    </section>
+
+    <!-- product -->
+
+    <!-- team -->
+
+    <section class="team" id="team">
+
+        <h1 class="heading">  <span>الخريطة </span></h1>
+
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="770" height="510" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14506.89829801635!2d46.5626095!3d24.633176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1fc242393f6d%3A0xec63ff80c25f30f0!2z2YXYt9in2KjYriDYp9mE2LXYudmK2K_Zig!5e0!3m2!1sar!2ssa!4v1683198088472!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <iframe width="770" height="510" id="gmap_canvas" src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
+                <a href="https://2yu.co">2yu</a>
+                <br><style>
+                .mapouter{
+                    position:relative;
+                    text-align:right;
+                    height:510px;
+                    /* width:770px; */
+                    text-align: center;
+
+                    }
+                    </style>
+                    <a href="https://embedgooglemap.2yu.co">html embed google map</a>
+                    <style>
+                    .gmap_canvas {
+                        overflow:hidden;
+                        background:none!important;
+                        height:510px;
+                        /* width:770px; */
+                        text-align: center;
+                    }
+                    </style>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- team -->
+
+    <!-- blog -->
+
+    <section class="blog" id="blog">
+
+        <h1 class="heading"> تواصل <span> معنا</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                </div>
+                <div class="content">
+                    <h3>تواصل معنا بالطريقة التي تفضلها ، الخيار لك. </h3>
+                    <p> إذا كنت ترغب في التحدث الى موظف خدمة العملاء، فنحن متواجدون لمساعدتكم في اي من احتياجاتكم. <br>اتصل على 00966540040894</p>
+                    <a href="tel:00966540040894" class="btn">
+                         اتصل بنا
+                         <i class="fa fa-phone"></i>            
+
+                        </a>
+                    <a href="tel:00966540040894" class="btn-call-fixed">
+                        <div class="icon-wrap">
+                            <div class="border-1"></div>
+                            <div class="border-2"></div>
+                            <i class="fa fa-phone"></i>            
+                        </div>
+                        <div class="text">
+                            <!-- <span>تواصل معنا</span><br> -->
+                            <!-- <span>0938 025 141</span> -->
+                        </div>
+
+
+                        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+                            <a href="https://wa.me/00966540040894" class="float" target="_blank">
+                            <i class="fa fa-whatsapp my-float"></i>
+                            </a>
+                    </a>    
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 5th july, 2023 </a>
+                    </div>
+                   <h3>العنوان </h3>
+                   <p>وادى لبن، شارع طيبة، ظهرة لبن، الرياض 13762</p>
+
+                </div>
+            </div>
+
+       
+
+        </div>
+
+    </section>
+
+    <!-- blog -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact.png" alt="">
+            </div>
+
+            <form action="">
+                <h3>تعليقاتكم</h3>
+
+                <span>اسمك </span>
+                <input type="text" class="box">
+
+                <span> رقمك</span>
+                <input type="number" class="box">
+
+                <span>اميلك</span>
+                <input type="email" class="box">
+
+                <span>رسالتك </span>
+                <textarea class="box" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="ارسال " class="btn">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact -->
+
+    <!-- credit -->
+
+
+    
+
+
+
+
+    <section class="credit">
+    
+
+        <div class="social-links" >
+            <a target="_blank" href="https://www.facebook.com/people/ketchain_darfa/100077471425908/?mibextid=LQQJ4d"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.facebook.com/people/ketchain_darfa/100077471425908/?mibextid=LQQJ4d"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="https://www.facebook.com/people/ketchain_darfa/100077471425908/?mibextid=LQQJ4d"><i class="fa fa-youtube"></i></a>
+            <a target="_blank" href="https://www.facebook.com/people/ketchain_darfa/100077471425908/?mibextid=LQQJ4d"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" href="https://www.facebook.com/people/ketchain_darfa/100077471425908/?mibextid=LQQJ4d"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+            <br>
+
+            <div class="col-md-12 copyright text-center wow fadeInUp" data-wow-offset="0" style="visibility: visible; animation-name: fadeInUp;">
+                <p>جميع الحقوق محفوظة © 2023، مطبخ درفة. كل الحقوق محفوظة. صمم بواسطة<a href="https://wa.me/00966564894259" style="color: brown;"> MOHMADKAMAL </a></p>
+            </div>
+    </section>
+
+
+
+    <!-- credit -->
+
+
+
+
+
+<script>
+    const swiper = document.querySelector('.swiper');
+const sl = new Swiper(swiper, {
+  slidesPerView: 'auto',
+  loop: true,
+  speed: 15000,
+  autoplay: {
+    enabled: true,
+    delay: 3,
+  },
+});
+  
+
+</script>
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
